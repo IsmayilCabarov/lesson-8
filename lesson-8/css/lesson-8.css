@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box {
+  display: inline-block;
+  height: 150px;
+  width: 33%;
+  background-color: chocolate;
+  border: 2px solid rgb(30, 3, 61);
+}
+
+.parent {
+
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-between;
+
+}
+.dox {
+  height: 150px;
+  width: 33%;
+  background-color: chocolate;
+  border: 2px solid rgb(30, 3, 61);
+  /* margin-right: 2%; */
+  /* margin: auto; */
+}
